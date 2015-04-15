@@ -3,8 +3,12 @@
 @font-face
 	{
 	font-family:"OfficinaSansITCW01-Book";
-				src:url("fonts/e4f88d1f-2f5e-49a0-9361-9fcdc5bfc795.eot?#iefix");
-				src:url("fonts/e4f88d1f-2f5e-49a0-9361-9fcdc5bfc795.eot?#iefix") format("eot"),url("fonts/60567f88-1ef5-4f2c-9951-3ce3845f9967.woff") format("woff"),url("fonts/ec8c3086-5408-4f25-97d0-f1f4c7014668.ttf") format("truetype"),url("fonts/d29fed54-ae01-49ef-94e2-3e3fb9df3f70.svg#d29fed54-ae01-49ef-94e2-3e3fb9df3f70") format("svg");
+				src:url("fhttps://cdn.rawgit.com/vnf89/Public/master/e4f88d1f-2f5e-49a0-9361-9fcdc5bfc795.eot");
+				src:url("https://cdn.rawgit.com/vnf89/Public/master/e4f88d1f-2f5e-49a0-9361-9fcdc5bfc795.eot") 
+						format("eot"),url("https://cdn.rawgit.com/vnf89/Public/master/60567f88-1ef5-4f2c-9951-3ce3845f9967.woff") 
+						format("woff"),url("https://cdn.rawgit.com/vnf89/Public/master/ec8c3086-5408-4f25-97d0-f1f4c7014668.ttf") 
+						format("truetype"),url("https://cdn.rawgit.com/vnf89/Public/master/d29fed54-ae01-49ef-94e2-3e3fb9df3f70") 
+						format("svg");
 	}
 
 

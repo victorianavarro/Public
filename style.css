@@ -61,21 +61,21 @@ body {
  
 #banner a:hover {color: #F1A33F;}
  
-#content h1 {
+.col-main h1 {
 	font-size: 36px;
 	font-weight: normal;
 	margin: 0px 0px 10px 0px;
 	line-height: 40px;
  }
  
-#content h2 {
+.col-main h2 {
 	font-size: 26px;
 	font-weight: normal;
 	margin: 0px 0px 5px 0px;
 	color: #646464;
  }
  
-#content h3 {
+.col-main h3 {
 	font-size: 18px;
 	font-weight: normal;
 	margin: 0px 0px 5px 0px;
@@ -261,7 +261,7 @@ p {margin: 0px;}
 	text-align: left;
  }
  
-#content {
+.col-main {
 	width: 828px;
 	min-height: 204px;
 	margin: 50px auto;
@@ -366,7 +366,7 @@ p {margin: 0px;}
  
 		.green_table table tr td + td {background-color: #F6F7F8;}
  
-#content {
+.col-main {
 	border-top: 1px dotted #000000;
 	border-collapse: collapse;
  }
@@ -401,7 +401,7 @@ p {margin: 0px;}
 	border-radius: 25px;
  }
  
-#content .green_box h2 {
+.col-main .green_box h2 {
 	font-size: 20px;
 	font-weight: normal;
 	margin: 0px;

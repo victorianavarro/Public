@@ -419,29 +419,29 @@ p {margin: 0px;}
  /* Special price */
 .special-price { margin:0; padding:0; }
 .special-price .price,
-.special-price .price-label { color:#F49F25 !important; /* Override other color changes */ }
+.special-price .price-label { color:#F59924 !important; /* Override other color changes */ }
 .special-price .price-excluding-tax .price {}
 
 /* Minimal price (as low as) */
-.minimal-price-link .price { color:#F49F25; }
+.minimal-price-link .price { color:#F59924 !important; }
 
 /* Tier Prices
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 */
-.tier-prices .benefit { color:#F49F25; font-weight:normal; }
+.tier-prices .benefit { color:#F59924 !important; font-weight:normal; }
 
 /* Shopping Cart Table
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 */
-.cart-table .item-msg { margin:5px 0; font-size:0.9166em; font-weight:bold; color:#F59924; }
+.cart-table .item-msg { margin:5px 0; font-size:0.9166em; font-weight:bold; color:#F59924 !important; }
 
 /* Address Book
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 */
-.addresses-list .link-remove:hover { color:#F59924; }
+.addresses-list .link-remove:hover { color:#F59924 !important; }
 
 /* Date */
-.order-date { margin:15px 0; color:#F59924; clear:both; }
+.order-date { margin:15px 0; color:#F59924 !important; clear:both; }
 
 /* Mark for required product options (next to option label)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -449,7 +449,7 @@ p {margin: 0px;}
 label.required:after,
 span.required:after {
 	content: ' *';
-	color: #F59924;
+	color: #F59924 !important;
 	font-weight: normal;
 	font-family: Verdana, Tahoma, Arial, sans-serif;
 	font-size: 12px;
@@ -461,12 +461,12 @@ span.required:after {
 .validation-failed { border:1px solid #F59924 !important; background:#fff !important; }
 
 /* Required */
-.form-list label.required em { color:#F59924; }
+.form-list label.required em { color:#F59924 !important; }
 
 /* Global Messages
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 */
-.error { color:#F59924; font-weight:bold; }
+.error { color:#F59924 !important; font-weight:bold; }
 
 /* Sale
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -496,26 +496,26 @@ h4.product-name a:hover,
 h5.product-name a:hover,
 p.product-name a:hover
 {
-			color: #F59924;
+			color: #F59924 !important;
 	}
 
 .button:hover,
 .button:focus
 {
-	background-color: #F59924;
+	background-color: #F59924 !important; 
 	color: #ffffff;
 }
 
 .btn-checkout:hover
 {
-	background-color: #F59924;
+	background-color: #F59924 !important;
 	color: #ffffff;
 }
 
 /* Scroll to top */
 #scroll-to-top:hover
 {
-	background-color: #F59924;
+	background-color: #F59924 !important;
 	color: #ffffff;
 }
 
@@ -537,124 +537,124 @@ p.product-name a:hover
 .header .dropdown.open > .dropdown-heading.cover a:hover,
 .header .form-search .search-autocomplete li:hover
 {
-			color: #F59924;
+			color: #F59924 !important;
 	}
 
 .header-top a:hover
 {
-			color: #F59924;
+			color: #F59924 !important;
 	}
 
 .header-mobile .skip-link.skip-active
 {
 			background-color: #fafafa;
-				color: #F59924;
+				color: #F59924 !important;
 	}
 
 .header-mobile .skip-content--style a:hover
 {
-			color: #F59924;
+			color: #F59924 !important;
 	}
 
 .cat-label-label2 {
-			background-color: #F59924;
+			background-color: #F59924 !important; 
 				color: #ffffff;
 	}
 
 li.level0 > a > span > .cat-label-label2.pin-bottom:before {
-			border-top-color: #f59924;
+			border-top-color: #f59924 !important;
 	}
 
 #nav .nav-panel--dropdown a:hover
 {
-			color: #f59924;
+			color: #f59924 !important;
 	}
 
 #nav .nav-panel--dropdown a:hover .caret
 {
-	border-left-color: #f59924;
-	border-right-color: #f59924;
+	border-left-color: #f59924 !important;
+	border-right-color: #f59924 !important;
 }
 
 .nav-regular .nav-item.level0.active > a
 {
 	background-color: transparent;
-	color: #f59924;
+	color: #f59924 !important;
 }
 
 				.nav-mobile .nav-item.level0.current > a
 		{
 			background-color: transparent;
-			color: #f59924;
+			color: #f59924 !important;
 		}
 		.nav-mobile .nav-item.level0.current > .opener
 		{
-			color: #f59924;
+			color: #f59924 !important;
 		}
 						#nav.nav-mobile ul.level0 .nav-item.current > a
 		{
 			background-color: transparent;
-			color: #f59924;
+			color: #f59924 !important;
 		}
 		.nav-mobile ul.level0 .nav-item.current > .opener
 		{
-			color: #f59924;
+			color: #f59924 !important;
 		}
 				.nav-regular .nav-item.level0:hover > a
 		{
 			background-color: #ffffff;
-			color: #f59924;
+			color: #f59924 !important;
 		}
 				.nav-mobile .nav-item.level0 > a:hover
 		{
 			background-color: #ffffff;
-			color: #f59924;
+			color: #f59924 !important;
 		}
 		.nav-mobile .nav-item.level0 > a:hover + .opener
 		{
-			color: #f59924;
+			color: #f59924 !important;
 		}
 						#nav.nav-mobile ul.level0 .nav-item > a:hover
 		{
 			background-color: #ffffff;
-			color: #f59924;
+			color: #f59924 !important;
 		}
 		.nav-mobile ul.level0 .nav-item > a:hover + .opener
 		{
-			color: #f59924;
+			color: #f59924 !important;
 		}
 
 #nav .nav-item.level0.parent.active > a .caret {
-	border-top-color: #f59924;
+	border-top-color: #f59924 !important;
 }
 #nav .nav-item.level0.parent:hover > a .caret {
-	border-top-color: #f59924;
+	border-top-color: #f59924 !important;
 }
 
 .mobnav-trigger:hover
 {
 	background-color: #ffffff;
-	color: #f59924;
+	color: #f59924 !important;
 }
 
 .mobnav-trigger.active
 {
 	background-color: #ffffff;
-	color: #f59924;
+	color: #f59924 !important;
 }
 
 .mobnav-trigger:hover .trigger-icon .line {
-	background-color: #f59924;
+	background-color: #f59924 !important;
 }
 .mobnav-trigger.active .trigger-icon .line {
-	background-color: #f59924;
+	background-color: #f59924 !important;
 }
 
 .gen-tabs .tabs a:hover
 /*, .gen-tabs .tabs a:focus */
 {
 	background-color: transparent;
-	color: #f59924;
+	color: #f59924 !important;
 
 		border-color: transparent;
 	border-bottom-color: transparent;
@@ -663,26 +663,26 @@ li.level0 > a > span > .cat-label-label2.pin-bottom:before {
 .gen-tabs .tabs a.current
 {
 	background-color: #ffffff;
-	color: #f59924;
+	color: #f59924 !important;
 }
 
 .gen-tabs .acctab:hover,
 .gen-tabs .acctab:focus,
 .gen-tabs .acctab.current {
 	background-color: transparent;
-	color: #f59924;
+	color: #f59924 !important;
 }
 
 .the-slideshow.slider-pagination1 .owl-controls 			.owl-page.active span,
 .the-slideshow.slider-pagination1 .owl-controls.clickable 	.owl-page.active:hover span /* Active state overrides hover state */
 {
-	background-color: #f59924;
+	background-color: #f59924 !important;
 		}
 
 .footer .button:hover,
 .footer .button:focus
 {
-	background-color: #f59924;
+	background-color: #f59924 !important;
 	color: #ffffff;
 }
 
@@ -700,14 +700,14 @@ li.level0 > a > span > .cat-label-label2.pin-bottom:before {
 .footer .accordion-style1 .opener:hover,
 .footer .collapsible .opener:hover
 {
-	background-color: #f59924;
+	background-color: #f59924 !important;
 	color: #ffffff;
 }
 
 
 .footer-bottom a:hover
 {
-			color: #f59924;
+			color: #f59924 !important;
 	}
 
 

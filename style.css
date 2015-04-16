@@ -330,7 +330,7 @@ p {margin: 0px;}
  
 .footer .ib, .footer span.icon, .ib, .feature > span.icon, .social-links .ib, .social-links a > span.icon {background-color: gray;}
  
-.footer .ib:hover, .footer span.icon:hover, .ib:hover, .feature > span.icon:hover , .social-links .ib-hover:hover, .social-links a > span.icon-hover:hover, span.ib.ic.ic-lg.ic-star:hover {background-color: #F49F25 !important;}
+.footer .ib:hover, .footer span.icon:hover, .ib:hover, .feature > span.icon:hover , .social-links .ib-hover:hover, .social-links a > span.icon-hover:hover, span.ib.ic.ic-lg:hover {background-color: #F49F25 !important;}
  
 .footer-container, .footer, .footer-bottom-container {
 	background-color: white !important;
@@ -513,9 +513,16 @@ p.product-name a:hover
 }
 
 /* Scroll to top */
+#scroll-to-top
+{
+	background-color: gray !important;
+	color: #333333;
+}
+
+/* Scroll to top */
 #scroll-to-top:hover
 {
-	background-color: #F59924 !important;
+	background-color: orange !important;
 	color: #ffffff;
 }
 
@@ -741,21 +748,34 @@ li.level0 > a > span > .cat-label-label2.pin-bottom:before {
 }
 
 /* For backward compatibility: */
-.icon-hover:hover,
-.feature-icon-hover:hover > span.icon
+.icon-hover:hover, .feature-icon-hover:hover > span.icon
 {
 	background-color: #f59924 !important;
 	color: #ffffff !important;
 }
 
-.ib.icon-color-productview,
-span.icon.icon-color-productview {
+.ib.icon-color-productview, span.icon.icon-color-productview {
 	background-color: gray !important;
 }
 .ib-hover.icon-color-productview:hover,
 .feature-icon-hover:hover .ib.icon-color-productview,
 .feature-icon-hover:hover span.icon.icon-color-productview {
 	background-color: #f59924 !important;
+}
+
+.footer .ib,
+.footer span.icon /* For backward compatibility */
+{
+	background-color: gray !important;
+	color: black;
+}
+.footer .ib-hover:hover,
+.footer span.icon-hover:hover, /* For backward compatibility */
+.footer .feature-icon-hover:hover .ib,
+.footer .feature-icon-hover:hover span.icon /* For backward compatibility */
+{
+	background-color: #f59924 !important;
+	color: #ffffff !important;
 }
 
 

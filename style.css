@@ -328,7 +328,7 @@ p {margin: 0px;}
  
 .wrapper {border-top-style: none;}
  
-.footer .ib, .footer span.icon, .ib, .feature > span.icon, .social-links .ib, .social-links a > span.icon, span.ib.ic.ic-lg.ic-star {background-color: gray;}
+.footer .ib, .footer span.icon, .ib, .feature > span.icon, .social-links .ib, .social-links a > span.icon {background-color: gray;}
  
 .footer .ib:hover, .footer span.icon:hover, .ib:hover, .feature > span.icon:hover , .social-links .ib-hover:hover, .social-links a > span.icon-hover:hover, span.ib.ic.ic-lg.ic-star:hover {background-color: #F49F25 !important;}
  
@@ -711,16 +711,52 @@ li.level0 > a > span > .cat-label-label2.pin-bottom:before {
 	}
 
 
-.social-links .ib-hover:hover,
-.social-links a > span.icon-hover:hover /* For backward compatibility */
+.social-links .ib-hover:hover, .social-links a > span.icon-hover:hover /* For backward compatibility */
 {
 	background-color: #f59924 !important;
 	color: #ffffff !important;
 }
 
+.ib,
+
+/* For backward compatibility */
+.social-links a > span.icon
+{
+	vertical-align: middle; /* TODO: check in which cases it's required */
+	text-align: center;
+	background-color: gray !important;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
 
 
+.ib,
 
+/* For backward compatibility: */
+.feature > span.icon
+{
+	background-color: gray !important;
+	color: #ffffff;
+}
+
+/* For backward compatibility: */
+.icon-hover:hover,
+.feature-icon-hover:hover > span.icon
+{
+	background-color: #f59924 !important;
+	color: #ffffff !important;
+}
+
+.ib.icon-color-productview,
+span.icon.icon-color-productview {
+	background-color: gray !important;
+}
+.ib-hover.icon-color-productview:hover,
+.feature-icon-hover:hover .ib.icon-color-productview,
+.feature-icon-hover:hover span.icon.icon-color-productview {
+	background-color: #f59924 !important;
+}
 
 
 

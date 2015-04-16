@@ -486,3 +486,77 @@ li.level0 > a > span > .cat-label-label2.pin-bottom:before {
 }
 
 
+/* ////  Change color Fiuscha to atto Orange/Yellow */
+
+a:hover,
+.vertnav li.current > a,
+h2.product-name a:hover,
+h3.product-name a:hover,
+h4.product-name a:hover,
+h5.product-name a:hover,
+p.product-name a:hover
+{
+			color: #F59924;
+	}
+
+.button:hover,
+.button:focus
+{
+	background-color: #F59924;
+	color: #ffffff;
+}
+
+.btn-checkout:hover
+{
+	background-color: #F59924;
+	color: #ffffff;
+}
+
+/* Scroll to top */
+#scroll-to-top:hover
+{
+	background-color: #F59924;
+	color: #ffffff;
+}
+
+/* For backward compatibility: */
+.icon-hover:hover,
+.feature-icon-hover:hover > span.icon
+{
+	background-color: #F59924 !important;
+	color: #ffffff !important;
+}
+
+.ib-hover.icon-color-productview:hover,
+.feature-icon-hover:hover .ib.icon-color-productview,
+.feature-icon-hover:hover span.icon.icon-color-productview {
+	background-color: #F59924 !important;
+}
+
+.header .dropdown .dropdown-content a:hover,
+.header .dropdown.open > .dropdown-heading.cover a:hover,
+.header .form-search .search-autocomplete li:hover
+{
+			color: #F59924;
+	}
+
+.header-top a:hover
+{
+			color: #F59924;
+	}
+
+.header-mobile .skip-link.skip-active
+{
+			background-color: #fafafa;
+				color: #F59924;
+	}
+
+.header-mobile .skip-content--style a:hover
+{
+			color: #F59924;
+	}
+
+.cat-label-label2 {
+			background-color: #F59924;
+				color: #ffffff;
+	}

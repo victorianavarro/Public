@@ -2,12 +2,9 @@
 @import url("http://fast.fonts.com/t/1.css?apiType=css&projectid=683efab0-9f3f-4506-a48a-e5c1af0e9f25");
 @font-face
 	{
-	font-family:OfficinaSansITCW01-Book;
-				src:	url("https://cdn.rawgit.com/vnf89/Public/master/font/itc-officina-sans-lt-book.ttf");
+	font-family: Officina;
+	src:	url(https://cdn.rawgit.com/vnf89/Public/master/font/itc-officina-sans-lt-book.ttf) format("truetype");
 	}	
-
-
-
 
 /* ///////////////////////////// /*/
 .page{
@@ -29,13 +26,13 @@
 	}
 
 body {
-	font-family: OfficinaSansITCW01-Book, Arial, Helvetica, sans-serif !important;
+	font-family: Officina, Arial, Helvetica, sans-serif !important;
 	color: #000000;
 	font-size: 14px;
  }
  
 #banner {
-	font-family: OfficinaSansITCW01-Book, Helvetica, sans-serif !important;
+	font-family: Officina, Helvetica, sans-serif !important;
 	color: #57585A;
 	font-size: 16px;
  }

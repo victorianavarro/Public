@@ -560,3 +560,167 @@ p.product-name a:hover
 			background-color: #F59924;
 				color: #ffffff;
 	}
+
+li.level0 > a > span > .cat-label-label2.pin-bottom:before {
+			border-top-color: #f59924;
+	}
+
+#nav .nav-panel--dropdown a:hover
+{
+			color: #f59924;
+	}
+
+#nav .nav-panel--dropdown a:hover .caret
+{
+	border-left-color: #f59924;
+	border-right-color: #f59924;
+}
+
+.nav-regular .nav-item.level0.active > a
+{
+	background-color: transparent;
+	color: #f59924;
+}
+
+				.nav-mobile .nav-item.level0.current > a
+		{
+			background-color: transparent;
+			color: #f59924;
+		}
+		.nav-mobile .nav-item.level0.current > .opener
+		{
+			color: #f59924;
+		}
+						#nav.nav-mobile ul.level0 .nav-item.current > a
+		{
+			background-color: transparent;
+			color: #f59924;
+		}
+		.nav-mobile ul.level0 .nav-item.current > .opener
+		{
+			color: #f59924;
+		}
+				.nav-regular .nav-item.level0:hover > a
+		{
+			background-color: #ffffff;
+			color: #f59924;
+		}
+				.nav-mobile .nav-item.level0 > a:hover
+		{
+			background-color: #ffffff;
+			color: #f59924;
+		}
+		.nav-mobile .nav-item.level0 > a:hover + .opener
+		{
+			color: #f59924;
+		}
+						#nav.nav-mobile ul.level0 .nav-item > a:hover
+		{
+			background-color: #ffffff;
+			color: #f59924;
+		}
+		.nav-mobile ul.level0 .nav-item > a:hover + .opener
+		{
+			color: #f59924;
+		}
+
+#nav .nav-item.level0.parent.active > a .caret {
+	border-top-color: #f59924;
+}
+#nav .nav-item.level0.parent:hover > a .caret {
+	border-top-color: #f59924;
+}
+
+.mobnav-trigger:hover
+{
+	background-color: #ffffff;
+	color: #f59924;
+}
+
+.mobnav-trigger.active
+{
+	background-color: #ffffff;
+	color: #f59924;
+}
+
+.mobnav-trigger:hover .trigger-icon .line {
+	background-color: #f59924;
+}
+.mobnav-trigger.active .trigger-icon .line {
+	background-color: #f59924;
+}
+
+.gen-tabs .tabs a:hover
+/*, .gen-tabs .tabs a:focus */
+{
+	background-color: transparent;
+	color: #f59924;
+
+		border-color: transparent;
+	border-bottom-color: transparent;
+}
+
+.gen-tabs .tabs a.current
+{
+	background-color: #ffffff;
+	color: #f59924;
+}
+
+.gen-tabs .acctab:hover,
+.gen-tabs .acctab:focus,
+.gen-tabs .acctab.current {
+	background-color: transparent;
+	color: #f59924;
+}
+
+.the-slideshow.slider-pagination1 .owl-controls 			.owl-page.active span,
+.the-slideshow.slider-pagination1 .owl-controls.clickable 	.owl-page.active:hover span /* Active state overrides hover state */
+{
+	background-color: #f59924;
+		}
+
+.footer .button:hover,
+.footer .button:focus
+{
+	background-color: #f59924;
+	color: #ffffff;
+}
+
+.footer .ib-hover:hover,
+.footer span.icon-hover:hover, /* For backward compatibility */
+.footer .feature-icon-hover:hover .ib,
+.footer .feature-icon-hover:hover span.icon /* For backward compatibility */
+{
+	background-color: #f59924 !important;
+	color: #ffffff !important;
+}
+
+
+/* Accordion and collapsible: opener */
+.footer .accordion-style1 .opener:hover,
+.footer .collapsible .opener:hover
+{
+	background-color: #f59924;
+	color: #ffffff;
+}
+
+
+.footer-bottom a:hover
+{
+			color: #f59924;
+	}
+
+
+.social-links .ib-hover:hover,
+.social-links a > span.icon-hover:hover /* For backward compatibility */
+{
+	background-color: #f59924 !important;
+	color: #ffffff !important;
+}
+
+
+
+
+
+
+

@@ -272,7 +272,7 @@ p {margin: 0px;}
  
 .wrapper {border-top-style: none;}
  
-.footer .ib, .footer span.icon, .ib, .feature > span.icon, .social-links .ib, .social-links a > span.icon {background-color: #8B8B8B;}
+.footer .ib, .footer span.icon, .ib, .feature > span.icon, .social-links .ib, .social-links a > span.icon {background-color: #F0F0F0;}
  
 .footer .ib:hover, .footer span.icon:hover, .ib:hover, .feature > span.icon:hover , .social-links .ib-hover:hover, .social-links a > span.icon-hover:hover, span.ib.ic.ic-lg:hover {background-color: #F49F25 !important;}
  
@@ -680,7 +680,7 @@ li.level0 > a > span > .cat-label-label2.pin-bottom:before {
 {
 	vertical-align: middle; /* TODO: check in which cases it's required */
 	text-align: center;
-	background-color: #8B8B8B !important;
+	background-color: #F0F0F0 !important;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
@@ -692,7 +692,7 @@ li.level0 > a > span > .cat-label-label2.pin-bottom:before {
 /* For backward compatibility: */
 .feature > span.icon
 {
-	background-color: #8B8B8B !important;
+	background-color: #F0F0F0 !important;
 	color: #ffffff;
 }
 
@@ -704,7 +704,7 @@ li.level0 > a > span > .cat-label-label2.pin-bottom:before {
 }
 
 .ib.icon-color-productview, span.icon.icon-color-productview {
-	background-color: #8B8B8B !important;
+	background-color: #F0F0F0 !important;
 }
 .ib-hover.icon-color-productview:hover,
 .feature-icon-hover:hover .ib.icon-color-productview,
@@ -715,7 +715,7 @@ li.level0 > a > span > .cat-label-label2.pin-bottom:before {
 .footer .ib,
 .footer span.icon /* For backward compatibility */
 {
-	background-color: #8B8B8B !important;
+	background-color: #F0F0F0 !important;
 	color: black;
 }
 .footer .ib-hover:hover,

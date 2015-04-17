@@ -789,3 +789,17 @@ h3.product-name, /*TODO:remove*/
 			font-weight:  ;
 	}
 
+
+/* Menus */
+
+.links-wrapper-separators .links > li:hover > a{
+	background-color:#F0F0F0 !important;
+	color:black !important;
+}
+
+.links-wrapper-separators-left .links > li:hover > a{
+	background-color:#F0F0F0 !important;
+	color:black !important;
+}
+
+

@@ -60,15 +60,15 @@ body {
  }
  
 .col-main h2 {
-	font-size: 26px;
+	font-size: 26px ;
 	font-weight: normal;
-	margin: 0px 0px 5px 0px;
+	margin: 0px 0px 5px 0px ;
 	color: #646464;
 	font-family:"Officina" !important;
  }
  
 .col-main h3 {
-	font-size: 18px;
+	font-size: 26px;
 	font-weight: normal;
 	margin: 0px 0px 5px 0px;
 	color: #646464;
@@ -199,6 +199,7 @@ p {margin: 0px;}
 	clear: both;
 	padding: 13px;
 	font-family:"Officina" !important;
+	border-style:none !important;
  }
  
 #footer {
@@ -252,9 +253,11 @@ p {margin: 0px;}
 		content: url(http://attocube.com/themes/attocube.com/img/curve_l.jpg);
 	}
  
- .nav-regular .nav-item.level1 a:before{
+ .nav-regular .nav-item.level1 a:before, .nav-regular .nav-item.level1 a {
  	content:none !important;
  }
+
+
 
 	.nav-regular li.level0 > a {padding: 0px;}
  
@@ -290,6 +293,11 @@ p {margin: 0px;}
 	color: #F59924;
  }
  
+ .gen-tabs .tabs a {
+ 	color:black;
+ 	font-family:"Officina";
+ }
+
 /* Product Specifications */
 .green_table table {
 	width: 100%;
@@ -720,4 +728,64 @@ li.level0 > a > span > .cat-label-label2.pin-bottom:before {
 }
 
 
+
+/* Custom content class */
+.main-font,
+
+/* Headings */
+h1, h2, h3, h4, h5,
+.section-title,
+.products-list .product-name,
+.products-grid .product-name,
+h3.product-name, /*TODO:remove*/
+.block-layered-nav .block-subtitle--filter, /* Filters */
+
+/* Generic  */
+.feature .heading,
+.accordion .heading,
+
+/* Main menu */
+	/* Regular mode */
+	.nav-regular .nav-item.level0 > a, /* level 1 */
+
+		/* Mega dropdown */
+		.nav-regular .nav-submenu--mega > li > a, /* First level of mega dropdown */
+
+	/* Mobile mode */
+	.mobnav-trigger,
+	.nav-mobile .nav-item.level0 > a, /* level 1 */
+	.nav-mobile .nav-item.level1 > a, /* level 2 */
+	.nav-mobile .nav-item.level2 > a, /* level 3 */
+
+/* Block headings */
+.block .block-title,
+
+/* Checkout headings */
+#opc-login h3,
+
+/* Multiple checkout */
+/*.fieldset .legend,
+.multiple-checkout .col2-set h2.legend,
+.info-set h2.legend,*/
+
+/* Account */
+.box-account .box-head h2,
+.order-items h2.table-caption,
+.order-items h2.sub-title,
+.order-items .order-comments h2,
+
+/* Product page */
+.product-view .box-reviews dt .heading,
+.gen-tabs .tabs a,
+
+/* Footer headings */
+.footer .heading,
+#subscribe-form label,
+
+/* Captions */
+.caption .heading
+{
+			font-family: "Officina", georgia, serif;
+			font-weight:  ;
+	}
 
